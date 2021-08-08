@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .topnav a{
+    display:flex;
+    height:60px;
+    justify-content:flex-end;
+    align-items:center;
+    
+  }
+  
+  .topnav a{
+    text-decoration: none;
+  
+    color: #6658d3;
+    padding: 0 25px;
+    margin-top: 10px;
+    float:right;
+  }
+  
+  .topnav a{
+    text-decoration: none;
+    list-style-type: none;
+    color:#F1C40F;
+    font-family:"Montserrat";
+    font-size:1.2rem;
+    font-weight:bold;
+  
+  }
+  
+  
+  
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  .topnav {
+    overflow: hidden;
+  
+  }
+  #h1{
+  
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size:2.5rem;
+  color:#F1C40F;
+  float:left;
+  
+
+
+  }
+  .topnav a:hover {
+  
+    color: black;
+  }
+  
+  .topnav a.active {
+  
+    color:#005A8D;
+  }
+  
+  .topnav .icon {
+    display: none;
+    color:#F1C40F;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    #h1{
+  
+      font-family: "Ubuntu";
+      font-weight: bold;
+      font-size:1.2rem;
+      color:#F1C40F;
+     
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+ 
+  
+   
+  
+
+  
+
+  
+  body{
+      
+      padding: 0;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background:#34495E  ;
+   
+  }
+  #wave{
+    border-radius: 20px;
+  }
+    .maincard{
+      background-color:white; 
+      width:23%;
+      height:78%;
+  
+      margin-top: 3%;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position: absolute;
+    left:38%;
+    right:62%;
+    text-align:center;
+  
+    }
+    
+    
+    
+  .input {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        padding-top: 1.5rem;
+  
+    }
+  
+  .box{
+      padding: 2rem 1rem 0;
+  }
+  
+  .box h1{
+      color: #0f1113;
+      font-style: oblique;
+      text-transform:uppercase;
+      font-weight: 300;
+      text-align: left;
+      padding: 12px ;
+      padding-bottom: 20px;
+      font-family:inherit;
+  }
+  .box input[type = "email"], .box input[type ="password"]{
+      border: 0;
+      border-radius: none;
+      border-bottom: 1px solid black;
+      background: none;
+      display:block;
+      font-size: 1.125rem;
+      text-align: left;   
+      padding : 0.25rem,0;
+      width:100%;
+      outline: none;
+      
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+    .action {
+        margin-top: 2rem;
+    }
+  
+    .action-button {
+        font: inherit;
+        font-size: 1.25rem;
+        padding: 0.5em;
+        width: 100%;
+        font-weight: 500;
+        background-color: #F1C40F;
+        border-radius: 6px;
+        color: #FFF;
+        border: 0;
+      margin: top 1em;
+  
+    }
+    .card-info {
+        padding: 1rem 1rem;
+        text-align: center;
+        font-size: .875rem;
+  
+  
+    }
+  
+    .card-info a {
+      display: block;
+      color:#34495E ;
+      text-decoration: none;
+    }
+   
+    footer{
+      height:12vh;
+    background-color:#F1C40F;
+      color:#0e0d0d;
+    }
+    .icon-foter{
+      color: black;
+      margin: 20px;
+    
+      padding:0.5% 0.5%;
+    
+    
+    }
+    
+    .footer{
+      text-align:center;
+      margin-top: 3rem;
+      padding:2%;
+      font-family: "Montserrat";
+      font-size: 150%;
+    
+    }
+    
+    .footer p{
+      padding-top: 2rem;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    
+    .icon-foter:hover{
+      color:#1E56A0;
+    }
+    .last-body{
+      padding-top: 2rem;
+    }
+
+    main{
+      min-height: calc(100vh - 60px);
+    }
+  
+  @media screen and (max-width: 600px){
+.maincard{
+  width: 65vw;
+  position: relative;
+  margin-top:20% ;
+    
+}
+
+main{
+  width:50vh;
+
+}
+
+  }
